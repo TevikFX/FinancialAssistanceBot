@@ -20,7 +20,7 @@
         </encoder>
     </appender>
 
-    <logger name="io.proj3ct.FinancialAssistantBot" level="debug" additivity="false">
+    <logger name="io.proj3ct.FinancialAssistanceBot" level="debug" additivity="false">
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
 

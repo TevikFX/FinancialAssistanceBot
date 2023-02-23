@@ -15,9 +15,17 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.cmd
+.resources
+.target
+.test
+.mvn
 *.iws
 *.iml
 *.ipr
+*.xml
+*.properties
+
 
 ### NetBeans ###
 /nbproject/private/

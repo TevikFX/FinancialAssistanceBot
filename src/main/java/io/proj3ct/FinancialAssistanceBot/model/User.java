@@ -1,4 +1,4 @@
-package io.proj3ct.FinancialAssistantBot.model;
+package io.proj3ct.FinancialAssistanceBot.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -13,28 +13,9 @@ public class User {
     private String firstName;
     private String lastName;
     private String userName;
-    private Timestamp registereAt;
+    private Timestamp registeredAt;
     private Integer expense;
     private String category;
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-
-
-    public Integer getExpense() {
-        return expense;
-    }
-
-    public void setExpense(Integer expense) {
-        this.expense = expense;
-    }
-
 
     public Long getChatId() {
         return chatId;
@@ -68,12 +49,28 @@ public class User {
         this.userName = userName;
     }
 
-    public Timestamp getRegistereAt() {
-        return registereAt;
+    public Timestamp getRegisteredAt() {
+        return registeredAt;
     }
 
-    public void setRegistereAt(Timestamp registereAt) {
-        this.registereAt = registereAt;
+    public void setRegisteredAt(Timestamp registeredAt) {
+        this.registeredAt = registeredAt;
+    }
+
+    public Integer getExpense() {
+        return expense;
+    }
+
+    public void setExpense(Integer expense) {
+        this.expense = expense;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     @Override
@@ -83,7 +80,7 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
-                ", registereAt=" + registereAt +
+                ", registereAt=" + registeredAt +
                 ", expense=" + expense +
                 ", category=" + category +
                 '}';

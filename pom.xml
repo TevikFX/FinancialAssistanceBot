@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>io.proj3ct</groupId>
-    <artifactId>FinancialAssistantBot</artifactId>
+    <artifactId>FinancialAssistanceBot</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 

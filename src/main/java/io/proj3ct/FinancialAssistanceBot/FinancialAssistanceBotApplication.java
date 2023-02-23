@@ -1,13 +1,13 @@
-package io.proj3ct.FinancialAssistantBot;
+package io.proj3ct.FinancialAssistanceBot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FinancialAssistantBotApplication {
+public class FinancialAssistanceBotApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FinancialAssistantBotApplication.class, args);
+		SpringApplication.run(FinancialAssistanceBotApplication.class, args);
 	}
 
 }
