@@ -15,11 +15,11 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
-.cmd
-.resources
-.target
-.test
-.mvn
+*.cmd
+*.resources
+*.target
+*.test
+*.mvn
 *.iws
 *.iml
 *.ipr
